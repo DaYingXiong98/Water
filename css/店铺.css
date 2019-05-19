@@ -1,0 +1,31 @@
+@import "Base.css";
+header{
+    height: 0.88rem;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+}
+.Search{
+    padding: 0.17rem 0.22rem;
+    height: 0.6rem;
+    line-height: 0.6rem ;
+}
+.Search > span{
+    float: left;
+    font-size: 0.28rem;
+    margin-top: 0.15em;
+    color: #4ebbfe;
+}
+.Search > a{
+    float: right;
+    width: 5.93rem;
+    height: 0.6rem;
+    border: 0.01rem solid skyblue;
+    border-radius: 0.3rem;
+}
+.Search > a > img{
+    margin-right: 0.12rem;
+    margin-top: 0.12rem;
+    float: right;
+}
