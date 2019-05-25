@@ -94,6 +94,7 @@ header .iconfont{
 }
 .thumb img{
     margin-left: 0.03rem;
+    border-radius: 0.03rem;
     width: 1.74rem;
     height: 1.74rem;
 }
