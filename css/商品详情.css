@@ -27,7 +27,12 @@ header > a{
 .thumb > img{
     width: 3rem;
     height: 3rem;
-    align-content: center;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+
 }
 .Gucci > h1{
     font-size: 0.28rem;
@@ -183,7 +188,7 @@ ul.bottom-goods{
     width: 100%;
     height: 5rem;
     flex-wrap: wrap;
-    background-color: #36a8fe;
+    background-color: #fbfeff;
     display: flex;
 }
 ul.bottom-goods li{
@@ -199,6 +204,7 @@ ul.bottom-goods img{
     height: 1.3rem;
 }
 ul.bottom-goods p{
+    color:#41b2fc;
     margin-top: 0.1rem;
-    font-size: 0.26rem;
+    font-size: 0.20rem;
 }
