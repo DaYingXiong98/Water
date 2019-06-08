@@ -54,8 +54,27 @@ nav .iconfont{
 }
 
 /*list*/
+h1.title{
+    padding: 0.4rem 0.22rem;
+    font-size: 0.32rem;
+    color: #41b2fc;
+}
+h1.title b{
+    color: #4f5b64;
+}
+h1.title > a{
+    float: right;
+    color: #41b2fc;
+    font-size: 0.22rem;
+}
+h1.title > a > i{
+    transform: rotateZ(0deg);
+}
+h1.title > a > i:last-child{
+    opacity: 0.5;
+}
 .list{
-    margin-top: 0.7rem;
+    margin-top: 3.3rem;
     width: 100%;
     position: absolute;
     top: 1.76rem;
@@ -169,4 +188,56 @@ nav .iconfont{
     right: 0;
     bottom: 0.2rem;
 }
+/*底部导航栏*/
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0.98rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f9ff;
+}
+footer > a{
+    width: 0.7rem;
+    height: 100%;
+    padding-top: 0.1rem;
+    font-size: 0.24rem;
+    opacity: 0.6;
+    text-align: center;
+    color: #59c3fe;
+}
+footer > a.hot{
+    opacity: 1;
+}
+footer > a > img{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: inline-block;
+}
 
+
+/*大图标*/
+ul.shangpu{
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+}
+ul.shangpu > li{
+    margin-right: 0.2rem;
+    width: 2rem;
+
+}
+ul.shangpu  img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+ul.shangpu span{
+    color: #34da87;
+    opacity: 0.6;
+    margin-left: 0.3rem ;
+}
